@@ -1,5 +1,7 @@
 # BokeTest
 博客地址:http://blog.csdn.net/ys408973279/article/details/50403756
+
+
 这篇文章主要配套与[Android内存优化之——static使用篇](http://blog.csdn.net/ys408973279/article/details/50389200)向大家介绍MAT工具的使用，我们分析的内存泄漏程序是上一篇文章中static的使用内存泄漏的比较不容易发现泄漏的第二情况和第三种情况——不正确使用单例和asyncTask造成的内存泄漏现象，没看上一篇文章的大家可以先阅读下上一篇文章。
 先看一下我们需要分析的目标程序由3个activity组成：
 
