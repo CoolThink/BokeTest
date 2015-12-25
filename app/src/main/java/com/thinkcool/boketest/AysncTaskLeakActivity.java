@@ -43,7 +43,7 @@ public class AysncTaskLeakActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        mTask.cancel(true);
+//        mTask.cancel(true);
         super.onDestroy();
     }
 }

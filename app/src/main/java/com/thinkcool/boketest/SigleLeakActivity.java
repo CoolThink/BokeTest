@@ -41,7 +41,7 @@ public class SigleLeakActivity extends AppCompatActivity{
 
     @Override
     protected void onDestroy() {
-        testManager.unregisterListener(mMyListener);
+//        testManager.unregisterListener(mMyListener);
         super.onDestroy();
     }
 }
